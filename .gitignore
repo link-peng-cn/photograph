@@ -1,0 +1,58 @@
+# ---- 操作系统 ----
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- 编辑器 / IDE ----
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# ---- Node / 前端 ----
+node_modules/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.next/
+out/
+
+# ---- 环境变量与密钥 ----
+.env
+.env.*
+!.env.example
+*.secret.*
+secrets/
+
+# ---- Lightroom 插件打包产物 ----
+*.lrplugin.zip
+*.lrdevplugin.zip
+*.lrdata/
+*.lrplugin/
+*.lrdevplugin/
+
+# ---- 本地运行数据 ----
+data/
+logs/
+*.log
+*.local.json
+
+# ---- 预览与临时图 ----
+previews/
+tmp/
+temp/
